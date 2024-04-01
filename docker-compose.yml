@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:14-alpine
+    ports:
+      - "5432:5432"
+    volumes:
+      - C:/Users/USER/apps/postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: adminuser
+      POSTGRES_DB: quizapp
+      POSTGRES_INITDB_ARGS: "--username=adminuser --pwfile=<(echo admin)"
+    networks:
+      - mynetwork
+
+  memcache:
+    container_name: memcached
+    image: memcached:latest
+    ports:
+        - "11211:11211"
+    networks:
+      - mynetwork
+
+  backend-app:
+    image: backend-app
+    ports:
+      - "8081:8081"
+    depends_on:
+      - memcache
+      - postgres
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
