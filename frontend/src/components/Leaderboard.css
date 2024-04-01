@@ -1,0 +1,47 @@
+/* Leaderboard.css */
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .leaderboard-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 12px 15px;
+  }
+  
+  .leaderboard-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  /* Highlight rows where is_myself is true */
+  .leaderboard-table tbody tr.is-myself {
+    background-color: #f0f0f0;
+    color: #009879;
+  }
+  
+  /* Hover effect for rows */
+  .leaderboard-table tbody tr:hover {
+    background-color: #f3f3f3;
+  }
+  
+  /* Responsive adjustments might be needed depending on your layout */
+  @media screen and (max-width: 600px) {
+    .leaderboard-table {
+      display: block;
+      overflow-x: auto;
+    }
+  }
+  
