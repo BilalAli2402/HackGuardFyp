@@ -14,15 +14,15 @@ function EthicalHacking({ isLoggedIn }) {
     
     <h2>Types of Hackers</h2>
     
-    <p>1. <strong>White-Hat Hackers:</strong> Also known as ethical hackers, these individuals use their skills to uncover vulnerabilities and improve security. They work within legal boundaries and with explicit permission.</p>
+    <p>1. <strong>White-Hat Hackers:</strong> Also known as ethical hackers, these individuals use their skills to uncover vulnerabilities and improve security. They work with  the permission from the target.</p>
     
     <p>2. <strong>Black-Hat Hackers:</strong> These hackers engage in illegal activities, such as unauthorized access to systems, stealing data, or causing damage for personal gain.</p>
     
-    <p>3. <strong>Grey-Hat Hackers:</strong> Grey-hat hackers operate in a morally ambiguous space, sometimes performing unauthorized actions but without malicious intent. They may breach security for curiosity or to expose vulnerabilities.</p>
+    <p>3. <strong>Grey-Hat Hackers:</strong> Grey-hat hackers operate between black and white hat hackers. They sometimes perform unauthorized actions but without the malicious intent.</p>
     
     <h2>Steps in Ethical Hacking</h2>
     
-    <p>1. <strong>Reconnaissance:</strong> This phase involves gathering information about the target system or network, including IP addresses, domain names, and network topology.</p>
+    <p>1. <strong>Reconnaissance:</strong> This phase involves gathering information about the target system or network such as the IP addresses, domain names, and network topology.</p>
     
     <p>2. <strong>Scanning:</strong> In this step, the hacker uses tools to discover open ports, services running on those ports, and potential vulnerabilities in the target system.</p>
     
@@ -30,7 +30,7 @@ function EthicalHacking({ isLoggedIn }) {
     
     <p>4. <strong>Exploitation:</strong> Once vulnerabilities are identified, the hacker attempts to exploit them to gain unauthorized access to the system or network.</p>
     
-    <p>5. <strong>Post-Exploitation:</strong> In this phase, the hacker consolidates their control over the target system, escalating privileges, installing backdoors, and maintaining access for future exploitation.</p>
+    <p>5. <strong>Post-Exploitation:</strong> In this phase, the hacker consolidates their control over the target system, escalates privileges, installes backdoors, and maintaining access for the future.</p>
     
     <h2>Types of Attacks</h2>
     
