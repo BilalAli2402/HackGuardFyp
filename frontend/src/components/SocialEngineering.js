@@ -9,7 +9,7 @@ function SocialEngineering({ isLoggedIn }) {
       <div></div>
 
       <body>
-    <h1>Social Engineering</h1>
+    
     
     <h2>Understanding Social Engineering</h2>
     
