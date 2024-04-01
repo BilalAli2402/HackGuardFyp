@@ -18,13 +18,13 @@ function FootPrinting({ isLoggedIn }) {
     
     <h2>Understanding Footprinting</h2>
     
-    <p>Footprinting is the process of gathering information about a target system, network, or organization with the aim of understanding its structure, vulnerabilities, and potential attack surface. This information is crucial for planning and executing successful cyber attacks.</p>
+    <p>Footprinting is the process of gathering information about a target system, network, or organization with the aim of identifying vulnerabilities, and a potential attack surface. This information is crucial for planning and executing successful cyber attacks.</p>
     
-    <h2>Methods of Footprinting</h2>
+    <h2>Methods</h2>
     
-    <p>1. <strong>Passive Footprinting:</strong> In passive footprinting, the attacker gathers information without directly interacting with the target. This may involve searching public records, social media, or online forums for information about the target.</p>
+    <p>1. <strong>Passive Footprinting:</strong> In passive footprinting, the attacker gathers information without directly interacting with the target. This involves searching public records or social media for information about the target.</p>
     
-    <p>2. <strong>Active Footprinting:</strong> Active footprinting involves actively probing the target system or network to gather information. This may include scanning for open ports, conducting DNS queries, or performing network reconnaissance.</p>
+    <p>2. <strong>Active Footprinting:</strong> Active footprinting involves actively interacting with the target system or network to gather information. This includes scanning for open ports and conducting DNS queries.</p>
     
     <h2>Types of Information Gathered</h2>
     
