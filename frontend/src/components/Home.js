@@ -10,11 +10,11 @@ function Home({ isLoggedIn }) {
       <body>
     <h1>Welcome to HackGuard </h1>
     
-    <p>Welcome to a world where cybersecurity meets ethical hacking, where the lines between attacker and defender blur, and where knowledge is the most valuable weapon of all. Ethical hacking isn't just about breaking into systems; it's about understanding how they work, how they can be compromised, and, most importantly, how they can be defended.</p>
+    <p>Welcome to a world where cybersecurity meets ethical hacking, where the lines between attacker and defender blur, and where knowledge is the most valuable weapon of all. Ethical hacking isn't just about breaking into the system it's about understanding how they work, how they can be compromised, and, most importantly, how they can be defended.</p>
     
     <h2>What is Ethical Hacking?</h2>
     
-    <p>Ethical hacking, also known as penetration testing or white-hat hacking, is where you gain permission from the target to carry out an attack on the system. This is done to help identify vulnerabilities and help the target find out where they need to imrpove their defence</p>
+    <p>Ethical hacking, also known as penetration testing or white-hat hacking, is where you gain permission from the target to carry out an attack on the system. This is done to help identify vulnerabilities and help the target find out where they need to improve their defence</p>
     
    
     <h2>Our Mission</h2>
